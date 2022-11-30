@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,50 @@
     <title>landing page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="logo">My website</div>
-            <div class="link"><a href="#">Home</a></div>
-            <div class="link"><a href="#">About</a></div>
-            <div class="link"><a href="#">Contact</a></div>
+            <div class="links" id="linkOne"><a href="#">Home</a>
+                <a href="#" id="linkTwo">About</a>
+                <a href="#" id="linkThree">Contact</a>
+            </div>
         </div>
-    </header>
-    <main>
-        <div class="container-main">
-            <div class="main-text"><h1>Welcome to the official Gainz Gang website </h1></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet.</p>
-            <div class="btn"><button>Sign Up</button></div>
-            <div class="imgOne">This is a placeholder for now</div>
-        </div>
-    </main>
-    <section>
-        <h2>Some of our products</h2>
-        <div class="imgTwo"></div>
-        <div class="imgTwo"></div>
-        <div class="imgTwo"></div><!--will need to add images and figcaptions-->
 
+        <div class="container-main">
+            <div class="imgOne"><img src="./images/White.png" height="200px"></div>
+            <div class="main-text">
+                <h1>Welcome to the official Gainz Gang website </h1>
+
+                <p>Joing the Gang that is all about making Gainz! Here we are all about improvement and let us help you
+                    achieve any and all goals you have!</p>
+                <button class="btn">Sign Up</button>
+            </div>
+        </div>
+
+    </header>
+    <section class="section-one">
+        <h2>Some of our products</h2>
+        <div class="img-container">
+            <div class="imgTwo"><figure></figure><img src="./images/gaby.jpg" height="200px" width="200px" alt=""></figure><figcaption>some random text</figcaption></div>
+            <div class="imgTwo"><img src="./images/gainz.jpg" height="200px" width="200px" alt=""><figcaption>Some random text</figcaption></div>
+            <div class="imgTwo"><img src="./images/hoodie.jpg" height="200px" width="200px" alt=""><figcaption>Some random text</figcaption></div>
+            <div class="imgTwo"><img src="./images/shirts.jpg" height="200px" width="200px" alt=""><figcaption>Some random text</figcaption></div>
+        </div>
     </section>
     <section class="quote">
-        Will add quote here!
+        <h3><em>“You can get everything in life you want if you will just help enough other people get what they want.”</em> <strong>—Zig Ziglar</strong> </h3>
     </section>
-    <section>
-        Order products here 
-    </section>
+    <div class="section-two">
+        <section class="box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+        <button class="btn-two">Buy Now</button>
+        </section>
+    </div>
     <footer>
-        Will add footer here
-    </footer>
+        <p>Copyright Gainz Gang </p>
+                </footer>
 </body>
+
 </html>
